@@ -1,1 +1,5 @@
 2.2.1	2.2.1.5	Adjust memory quotas for a process	Administrators, NETWORK SERVICE, LOCAL SERVICE	IIS Apppool User		The user rights settings determine which users or groups have logon rights and other privileges on the server.	Ensure user rights are configured as suggested in below table. To configure Security Options,1. Press Windows key > type Run and type gpedit.msc.2. Expand Computer Configuration > Windows Settings > Security Settings > Local Policies > User Rights Assignment container and configure the settings with the values as suggested in Appendix 2:	Computer Configuration\Policies\Windows Settings\Security Settings\Local Policies\User Rights Assignment\Adjust memory quotas for a process	If an account is given this right the user of the account may create an application that calls into Credential Manager and is returned the credentials for another user.
+
+
+
+IIS APPPOOL\DefaultAppPool  removed
